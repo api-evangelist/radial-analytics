@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.radialcare.com/security
+note: >-
+  Radial Analytics (Radial) publishes no public API, so no API-level protocol
+  standards (oauth2, oidc, fhir, fapi, scim, odata, json:api, rfc9457) can be
+  asserted. The conformance entries below capture the organizational security
+  and healthcare-compliance programs the company publicly claims on its Security
+  page. Each is evidenced by a published statement, not independently verified.
+standards:
+- id: soc2-type-ii
+  name: SOC 2 Type II
+  conforms: true
+  evidence: >-
+    "The unqualified opinion issued on our 2023 SOC 2 Type II audit report
+    demonstrates ... our company manages all data in accordance with the highest
+    standards of security and compliance." Client data is encrypted in transit
+    and at rest per SOC 2 standards.
+  source: https://www.radialcare.com/security
+- id: hipaa
+  name: HIPAA
+  conforms: true
+  evidence: >-
+    Company markets a "HIPAA-compliant, SOC 2 Type II certified AI/ML platform"
+    for value-based healthcare, handling clinical, claims, and quality data.
+  source: https://www.radialcare.com/
+- id: owasp-top-10
+  name: OWASP Top 10 (secure SDLC)
+  conforms: true
+  evidence: >-
+    Security page states secure development lifecycle principles are aligned with
+    the OWASP Top 10, with regular penetration testing and role-based access
+    controls.
+  source: https://www.radialcare.com/security

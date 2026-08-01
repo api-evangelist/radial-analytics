@@ -1,8 +1,32 @@
 aid: radial-analytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radial-analytics.png
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 name: Radial Analytics
-description: 'Radial Analytics is a company surfaced as a portfolio company of initialized-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Radial Analytics (Radial) is a Concord, Massachusetts healthcare technology
+  company providing an AI/ML-powered clinical decision-support platform for the value-based
+  care market. Its HIPAA-compliant, SOC 2 Type II certified software helps ACOs, hospitals,
+  health systems, payers, and Medicare Advantage plans account for millions of clinical,
+  claims, and quality datapoints to improve patient outcomes while reducing cost of
+  care. Products include Radial Care, ACO Compare, Opportunity Navigator, decision-support
+  modules, care pathways, and TEAM bundles. The company was founded by MIT PhDs Thaddeus
+  Fulford-Jones and Eric Weiss and is backed by Initialized Capital. Added to the API
+  Evangelist network as a portfolio-lead company profile; the company publishes no
+  public API, developer portal, or SDK.'
 url: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise Saas
+- Healthcare
+- Value-Based Care
+- Clinical Decision Support
+- Analytics
+- Artificial Intelligence
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/radial-analytics-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/radial-analytics-domain-security.yml
+- type: Conformance
+  url: conformance/radial-analytics-conformance.yml
+- type: Compliance
+  url: conformance/radial-analytics-conformance.yml
 - type: Website
-  url: https://radialanalytics.com/
+  url: https://www.radialcare.com/
+- type: About
+  url: https://www.radialcare.com/about
+- type: Blog
+  url: https://www.radialcare.com/blog
+- type: Security
+  url: https://www.radialcare.com/security
+- type: TermsOfService
+  url: https://www.radialcare.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.radialcare.com/privacy-policy
